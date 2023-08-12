@@ -1,0 +1,323 @@
+/* /Pages/learning/Blogs.razor.rz.scp.css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navebar">
+            <ul>
+                <!--    use of link   -->
+
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Education.html" target="_self">Education</a></li>
+                <li><a href="Calci.html">Calculation</a></li>
+                <li><a href="Entertainment.html">Entertainment</a></li>
+                <li><a href="Blogs.html">Blogs</a></li>
+                <li><a href="Contct.html">Contact us</a></li>
+                <li><a href="About.html" target="_blank">About</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+</body>
+</html[b-r0ffl4iydz]>
+/* /Pages/learning/Education.razor.rz.scp.css */
+@page "/Education"
+
+<PageTitle>Education</PageTitle>
+
+
+<h1>Welcome to our Educational Site</h1>
+
+<p>
+    This is a sample home page for our educational site. Feel free to customize it with your own content and design.
+</p>
+
+<h2>Featured Courses</h2>
+
+<div class="course-list">
+    <div class="course-card">
+        <h3>Course 1</h3>
+        <p>Lorem ipsum dolor sit amet[b-nsfrto36e3], consectetur adipiscing elit.</p>
+        <a href="#">Enroll Now</a>
+    </div>
+
+    <div class="course-card">
+        <h3>Course 2</h3>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#">Enroll Now</a>
+    </div>
+
+    <!-- Add more course cards as needed -->
+</div>
+
+<h2>About Us</h2>
+
+<p>
+    Lorem ipsum dolor sit amet[b-nsfrto36e3], consectetur adipiscing elit. Nulla luctus nibh auctor[b-nsfrto36e3], rhoncus mi quis[b-nsfrto36e3], dictum ipsum.
+    Quisque congue euismod ultricies. Integer fringilla fermentum facilisis. Suspendisse euismod[b-nsfrto36e3], lectus vel tincidunt
+    interdum[b-nsfrto36e3], ex nisi efficitur tellus[b-nsfrto36e3], nec congue elit turpis at risus.
+</p>
+
+<h2>Contact Us</h2>
+
+<p>
+    If you have any questions or inquiries[b-nsfrto36e3], please feel free to get in touch with us using the contact form or the
+    contact details below:
+</p>
+
+<div class="contact-info">
+    <p>Email: contact@educational-site.com</p>
+    <p>Phone: +1 (123) 456-7890</p>
+</div[b-nsfrto36e3]>
+/* /Pages/learning/MyResume.razor.rz.scp.css */
+body[b-7nxabpxfkf] {
+
+	color:#ff0000;
+
+}
+
+hr[b-7nxabpxfkf] {
+	height: 5px;
+	width: 99%;
+	//border-top: 5px solid black;	
+	margin-top: 0px;
+	background-color: #000000;
+	
+}
+
+/* /Pages/learning/Objectdesigns.razor.rz.scp.css */
+<h3>Objectdesigns</h3>
+
+
+<div class="container-d">
+
+	<div class="tiles1">
+		<h1> Transformation effects:  </h1>
+		<span>
+
+		</span>
+	</div>
+	<div class="tiles1">
+
+	</div>
+	<div class="tiles1">
+	</div>
+	<div class="tiles1">
+	</div>
+	<div class="tiles1">
+	</div>
+	<div class="tiles1">
+	</div>
+
+
+
+
+</div>
+
+@code[b-8vqonnbzab] {
+
+}
+/* /Pages/Shopping.razor.rz.scp.css */
+
+body[b-zxvzw3icfp] {
+
+	background-color: #d4c1c1;
+}
+
+
+
+.Page-container[b-zxvzw3icfp] {
+	margin: auto;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	border: 5px solid #ef2525;
+	
+
+}
+
+.Medicine[b-zxvzw3icfp] {
+	background-color: #808080;
+	box-shadow: 10px 10px;
+	border-radius: 25px;
+	background: #a1c644;
+	padding: 20px;
+	margin: 20px;
+	width: 300px;
+	height: auto;
+	
+	// writing-mode: vertical-rl;
+	display: flex;
+}
+
+	.Medicine:hover[b-zxvzw3icfp] {
+		//transform: rotate(5deg);
+		transform: scale(1.1, 1.2);
+	}
+/* /Shared/Bookshop.razor.rz.scp.css */
+body[b-7v7onuc7g1] {
+
+	background-color : antiquewhite;
+}
+
+.Container[b-7v7onuc7g1] {
+
+	background-color:darkcyan;
+	border: 5px solid black;
+	width:20px;
+	margin: 10px auto;
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-4xyfsh1owr] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-4xyfsh1owr] {
+    flex: 1;
+}
+
+.sidebar[b-4xyfsh1owr] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-4xyfsh1owr] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-4xyfsh1owr]  a, .top-row[b-4xyfsh1owr]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-4xyfsh1owr]  a:hover, .top-row[b-4xyfsh1owr]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-4xyfsh1owr]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-4xyfsh1owr] {
+        display: none;
+    }
+
+    .top-row.auth[b-4xyfsh1owr] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-4xyfsh1owr]  a, .top-row[b-4xyfsh1owr]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-4xyfsh1owr] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-4xyfsh1owr] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-4xyfsh1owr] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-4xyfsh1owr]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-4xyfsh1owr], article[b-4xyfsh1owr] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-wfzrl0fj6a] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-wfzrl0fj6a] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-wfzrl0fj6a] {
+    font-size: 1.1rem;
+}
+
+.oi[b-wfzrl0fj6a] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-wfzrl0fj6a] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-wfzrl0fj6a] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-wfzrl0fj6a] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-wfzrl0fj6a]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-wfzrl0fj6a]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-wfzrl0fj6a]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-wfzrl0fj6a] {
+        display: none;
+    }
+
+    .collapse[b-wfzrl0fj6a] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
