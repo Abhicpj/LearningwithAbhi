@@ -88,6 +88,34 @@ input[b-u5hnziuofv] {
 .Note-inp[b-u5hnziuofv] {
     width : 200px;
 }
+/* /Pages/learning/blog-pages/OpenAI-tools.razor.rz.scp.css */
+
+.main-temp[b-56i1n9u0hv] {
+
+	background-color:  burlywood;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.cart1[b-56i1n9u0hv] {
+	display: flex;
+	flex-flow: row wrap;
+	position: relative;
+	padding: 10px;
+
+	
+}
+
+
+.items-1[b-56i1n9u0hv], .items-2[b-56i1n9u0hv] {
+	background-color: antiquewhite;
+	color: chocolate;
+	width: 25%;
+	margin: 10px;
+	margin-top: 50px;
+	padding:0.8%;
+	position: relative;
+}
 /* /Pages/learning/Blogs.razor.rz.scp.css */
 main[b-r0ffl4iydz] {
 	background-color: antiquewhite;
