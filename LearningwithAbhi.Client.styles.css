@@ -1,31 +1,133 @@
+/* /Pages/About.razor.rz.scp.css */
+
+
+.grey-white[b-pgefks8irf] {
+
+	background-color:aqua;
+}
+
+
+.left[b-pgefks8irf] {
+	padding-left: 0;
+	float: left;
+	display: block;
+	background-color: #f5cdcd;
+	
+}
+
+.card-area[b-pgefks8irf] {
+	color: white;
+	
+	padding: 10px;
+	min-height: 450px;
+}
+
+.col-md-5[b-pgefks8irf] {
+	width: 48%;
+}
+
+.item-1[b-pgefks8irf], .item-2[b-pgefks8irf], .item-3[b-pgefks8irf], .item-4[b-pgefks8irf] {
+	padding: 10%;	
+	margin: 5%;
+	min-height: 50%;
+	background-color: cadetblue;
+	
+}
+
+
+	h4[b-pgefks8irf]
+
+{
+	color: black;
+}
+
+
+
+.right[b-pgefks8irf] {
+	padding-right: 0;
+	float: right;
+	display: block;
+	background-color: #f5cdcd;
+}
+/* /Pages/Contact.razor.rz.scp.css */
+
+.container[b-u5hnziuofv] {
+    background-color: #deded7;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.tiles[b-u5hnziuofv] {
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 20px 5px;
+    border: 2px solid #808080;
+    width: auto ;
+    max-width: 500px;
+    color: white;
+    text-align: center;
+}
+
+
+div[b-u5hnziuofv]{
+    margin: 2px;
+}
+
+label[b-u5hnziuofv] {
+    display: inline-block;
+    width: 100px;
+    color: #000000;
+}
+input[b-u5hnziuofv] {
+    padding: 3px;
+    block-size: auto;
+}
+
+.Note-inp[b-u5hnziuofv] {
+    width : 200px;
+}
 /* /Pages/learning/Blogs.razor.rz.scp.css */
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+main[b-r0ffl4iydz] {
+	background-color: antiquewhite;
+	min-height: 1000px;
+	display: flex;
+	flex-flow: row wrap;
+}
 
-    <header>
-        <nav class="navebar">
-            <ul>
-                <!--    use of link   -->
 
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="Education.html" target="_self">Education</a></li>
-                <li><a href="Calci.html">Calculation</a></li>
-                <li><a href="Entertainment.html">Entertainment</a></li>
-                <li><a href="Blogs.html">Blogs</a></li>
-                <li><a href="Contct.html">Contact us</a></li>
-                <li><a href="About.html" target="_blank">About</a></li>
-            </ul>
-        </nav>
+.card-01[b-r0ffl4iydz] {
+	background-color: cadetblue;
+	border: 3px dotted #000000;
+	width:  90%;
+	height: auto;
+	margin: 10px;
+	position: relative;
+	
+	/*flex-wrap: wrap;     wrap; wrap/unwrap, direction : row , collumn   flow: row wrap*/
+}
+.Expanded[b-r0ffl4iydz] {
+	display: none;
+	position: relative;
+	overflow: auto;
+}
 
-    </header>
+.card-01:hover .Expanded[b-r0ffl4iydz] {
+	display: block;
+	
+}
 
-</body>
-</html[b-r0ffl4iydz]>
+
+a[b-r0ffl4iydz] {
+	text-decoration: none;
+}
+
+	a:hover[b-r0ffl4iydz] {
+		color: white;
+		text-decoration: none;
+		cursor: pointer;
+	}
 /* /Pages/learning/Education.razor.rz.scp.css */
 @page "/Education"
 
@@ -80,15 +182,31 @@ body[b-7nxabpxfkf] {
 
 	color:#ff0000;
 
+	
+
 }
+
+main-content[b-7nxabpxfkf] {
+	background-color: #f7e7e7;
+	--bs-gutter-x: 1.875rem;
+	--bs-gutter-y: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: calc(-1 * var(--bs-gutter-y));
+	margin-right: calc(-.5 * var(--bs-gutter-x));
+	margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
 
 hr[b-7nxabpxfkf] {
 	height: 5px;
 	width: 99%;
-	//border-top: 5px solid black;	
+	/*  border-top: 5px solid black; */
 	margin-top: 0px;
 	background-color: #000000;
-	
 }
 
 /* /Pages/learning/Objectdesigns.razor.rz.scp.css */

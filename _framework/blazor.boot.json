@@ -8,7 +8,7 @@
   "resources": {
     "assembly": {
       "ICSharpCode.SharpZipLib.dll": "sha256-K4ug2pe2HVcvI0U5szV\/eavFCqkllm40Nfypq0yf828=",
-      "LearningwithAbhi.Client.dll": "sha256-p3baz6Kydvad+YVVTUru103xCAJ4grfeZBjqJ7SYuak=",
+      "LearningwithAbhi.Client.dll": "sha256-evZHqZ5M1UahIBIWPV0bZlN785NK50DYKZxDCTz5\/fo=",
       "LearningwithAbhi.Shared.dll": "sha256-z3Tu51ddbt2Lga0Pv3fXX33T7aGX1vkc2GjKp0OSfDs=",
       "Microsoft.AspNetCore.Components.dll": "sha256-ll9Vg9Z+gdTTTb4U+aA7de1OjcyE0yo+swJ+DG3yOXE=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-0aR4Y1cN4iPqfEadyUaDtu2btR5SjzMAE0C7cPfuo1w=",
@@ -43,7 +43,7 @@
       "System.Net.Primitives.dll": "sha256-nrNDBAW0Z\/Oqht1lxtk5Ey2HE6rln6ov2cMKHV5OBd0=",
       "System.Numerics.Vectors.dll": "sha256-4a6AJMtvZcG+x1mwIdrdWg2C5qXOfhtoDSfYt5rsi6M=",
       "System.ObjectModel.dll": "sha256-nx6kqTb01PHMH+74pyd+na205999RoxU\/Su5RmuvHMA=",
-      "System.Private.CoreLib.dll": "sha256-kaWKTHCX\/QQ0bWG9AWmymT0Zro4ud98SshOT9NyXGLw=",
+      "System.Private.CoreLib.dll": "sha256-WsatvO91ehMMdyvxtOpcRLhpd3DHcSRGWw6Y6h7p9B0=",
       "System.Private.Runtime.InteropServices.JavaScript.dll": "sha256-eGtPvyt+vevaUircD7481bKQhfPNwM14to3JhG2mlaw=",
       "System.Private.Uri.dll": "sha256-zgK\/WC7PbdpZUiFyWgA6bfZwwjjomr7k1wNSUkARfaw=",
       "System.Resources.ResourceManager.dll": "sha256-T1gv8b1sr2mbemLDiBGi7HaXZ8IfN6Qhv7iWmrYyKTE=",
