@@ -206,26 +206,22 @@ a[b-r0ffl4iydz] {
     <p>Phone: +1 (123) 456-7890</p>
 </div[b-nsfrto36e3]>
 /* /Pages/learning/MyResume.razor.rz.scp.css */
-body[b-7nxabpxfkf] {
-
-	color:#ff0000;
-
+.page-container[b-7nxabpxfkf] {
+	color: blue;
+	min-height: 100vh;
+	max-width: 10px;
+	background-color: papayawhip;
 	
-
 }
 
-main-content[b-7nxabpxfkf] {
+.main-content[b-7nxabpxfkf] {
 	background-color: #f7e7e7;
-	--bs-gutter-x: 1.875rem;
-	--bs-gutter-y: 0;
-	display: -webkit-box;
-	display: -ms-flexbox;
+	padding: 1.1rem;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin-top: calc(-1 * var(--bs-gutter-y));
-	margin-right: calc(-.5 * var(--bs-gutter-x));
-	margin-left: calc(-.5 * var(--bs-gutter-x));
+	max-width: 50rem;
+	
 }
 
 
@@ -235,6 +231,45 @@ hr[b-7nxabpxfkf] {
 	/*  border-top: 5px solid black; */
 	margin-top: 0px;
 	background-color: #000000;
+}
+
+
+
+table[b-7nxabpxfkf], tr[b-7nxabpxfkf], th[b-7nxabpxfkf],td[b-7nxabpxfkf] {
+
+	background-color: antiquewhite;
+	padding: 5px;
+	border: 0.02rem solid #000000;
+	text-align:center;
+	margin-bottom:1.1rem;
+	
+
+}
+th[b-7nxabpxfkf] {
+	background-color: aquamarine;
+}
+
+
+/* use to allign any items like table*/
+.center[b-7nxabpxfkf]
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+dt[b-7nxabpxfkf] {
+	text-align:center;
+	margin-top: 2rem;
+}
+
+
+.secure-hide[b-7nxabpxfkf] {
+
+	display:none;
+	
+}
+.secure-unhide[b-7nxabpxfkf] {
+	display:block;
 }
 
 /* /Pages/learning/Objectdesigns.razor.rz.scp.css */
